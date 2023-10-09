@@ -1,0 +1,115 @@
+body{
+    margin:0%;
+    font-family:'Times New Roman', Times, serif;
+}
+nav {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    height: 60px;
+    background-color:#22B5B5;
+    width:100%;
+    margin:0%;
+    padding: 0%;
+  }
+  .parallax {
+    background-image: url("images/stars.jpg");
+    height: 650px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  nav>a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+  }
+  #introduction-text{
+   
+    color:white;
+    font-size: large;
+    margin:auto;
+    padding:20px;
+  }
+  .header1{
+    background-color:#22B5B5;
+   color:white;
+    padding:30px 30%;
+    margin:0px;
+    text-align:center;
+  }
+.container{
+  margin:10px auto; min-width:70%;display: flex; justify-content: space-around;
+}
+.container>span{
+    font-size:20px;
+}
+
+  
+  .bar-fill-60
+{width:70px;
+    height:20px; 
+    background: linear-gradient(
+        to right,
+        #22B5B5 0%,
+        #22B5B5 60%,
+        gray 60%,
+        gray 100%)
+}
+.bar-fill-40
+{width:70px;
+    height:20px; 
+    background: linear-gradient(
+        to right,
+        #22B5B5 0%,
+        #22B5B5 40%,
+        gray 40%,
+        gray 100%)
+}
+
+.bar-fill-10
+{width:70px;
+    height:20px; 
+    background: linear-gradient(
+        to right,
+        #22B5B5 0%,
+        #22B5B5 10%,
+        gray 10%,
+        gray 100%)
+}
+
+figcaption{
+    color:white;
+    background-color: #22B5B5;
+   font-size: 20px;
+   position:relative;
+   top:-10px;
+}
+figure>a>img{
+   width: 350px;
+    height: 250px;
+}
+.text-link{
+  width:200px;
+  padding:30px;
+  color:white;
+  background-color: #22B5B5;
+ font-size: 20px;
+ text-align:center;
+ margin:20px;
+ border-radius:20px;
+ 
+}
+a{text-decoration: none;}
+  footer{
+    background-color: darkgray;
+    color:white;
+    font-size: medium;
+    margin:0px;
+    height:100px;
+    padding:10px 0px 0px 50px;
+  }
